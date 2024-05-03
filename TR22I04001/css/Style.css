@@ -1,0 +1,201 @@
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #000;
+}
+p, h1, h3,h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: white;
+    margin: 6px;
+}
+/*CABEZCERA*/
+#cajacabecera{
+    width: 100%;
+    background: rgb(46,0,65);
+    background: linear-gradient(90deg, rgba(46,0,65,1) 22%, rgba(82,23,153,1) 61%, rgba(198,12,187,1) 96%);
+    position: fixed;
+    align-items: center;
+    left: 0;
+    top: 0;
+    
+    z-index: 999;
+}
+#cabecera{
+    width: 100%;
+    max-width: 1050px;
+    display: flex;
+    flex-direction:row-reverse;
+    margin: auto;
+}
+#logo{
+    width: 15%;
+    padding: 6px 0;
+}
+/*MENU*/
+.menu{
+    width: 80%;
+ }
+ #btn-menu{
+     display: none;
+ }
+ #mmovil{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    text-align: right;
+    color: white;
+    padding: 6px;   
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 100px;
+    padding:  20px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.menu a li{
+    font-size: 30px;
+    
+}
+.menu a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+/*Inicio*/
+.inicio{
+    background-color: #000;
+    height: 1004px;
+    position:relative;
+    padding-top: 100px;
+    overflow: hidden;
+    background-image:url("../img/day.jpg");
+    background-size:contain;
+}
+/*page*/
+.page{
+    background: rgb(226, 225, 225);
+    position: relative;
+    padding-top: 150px;
+    padding: 200px;
+    overflow: hidden;
+}
+.contenidos{
+    width: 100%;
+    height: 920px;
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+}
+
+.cajatitulos h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(46,0,65);
+    margin: 0;
+}
+.calendario{
+    background: #ffffff url(../img/fondo-ciudad.png) no-repeat bottom;
+    position: relative;
+    padding-top: 150px;
+    padding: 200px;
+    overflow: hidden;
+}
+.contenido{
+    width: 100%;
+    height: 920px;
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+}
+.cajatitulo h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(46,0,65);
+    margin: 0;
+}
+.ART{
+    background: rgb(226, 225, 225);
+    position: relative;
+    padding-top: 150px;
+    padding: 200px;
+    overflow: hidden;
+}
+.tren{
+    width: 50%;
+    height: auto;
+    display: block;
+    max-width: 929px;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+}
+.MAS{
+    background: #ffffff url(../img/fondo-ciudad.png) no-repeat bottom;
+    position: relative;
+    padding-top: 150px;
+    padding: 200px;
+    overflow: hidden;
+}
+/*FOOTER*/
+#piepagina{
+    background: rgb(46,0,65);
+    background: linear-gradient(90deg, rgba(46,0,65,1) 22%, rgba(82,23,153,1) 61%, rgba(198,12,187,1) 96%);
+    padding: 2% 0;
+}
+.cajapie{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1100px;
+    justify-items: baseline;
+
+}
+#piepagina p{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    margin-left: 40px;
+    
+}
+#piepagina ul{
+    width: 160px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    margin-left: 5%;
+    position: absolute;
+    right: 30%;
+
+}
+#piepagina ul li{
+    padding: 10px 30px;
+}
+#piepagina ul li a{
+    width: 40px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    color: #000000;
+    font-size: 50px;
+}
